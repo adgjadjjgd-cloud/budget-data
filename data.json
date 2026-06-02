@@ -119,6 +119,14 @@
       "cat": "Loisirs",
       "amount": 28,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419918080",
+      "month": "2026-06",
+      "desc": "RATP",
+      "cat": "Transport",
+      "amount": 2.55,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
