@@ -111,6 +111,14 @@
       "cat": "Loisirs",
       "amount": 200,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419903725",
+      "month": "2026-06",
+      "desc": "R club",
+      "cat": "Loisirs",
+      "amount": 28,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
