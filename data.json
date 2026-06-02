@@ -87,6 +87,14 @@
       "cat": "Loisirs",
       "amount": 26.1,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419857798",
+      "month": "2026-06",
+      "desc": "Relay",
+      "cat": "Transport",
+      "amount": 5.5,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
