@@ -95,6 +95,14 @@
       "cat": "Transport",
       "amount": 5.5,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419878328",
+      "month": "2026-06",
+      "desc": "Bureau tabac",
+      "cat": "Loisirs",
+      "amount": 4,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
