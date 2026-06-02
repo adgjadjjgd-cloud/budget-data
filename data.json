@@ -71,6 +71,14 @@
       "cat": "Transport",
       "amount": 5.1,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419813832",
+      "month": "2026-06",
+      "desc": "Investissement",
+      "cat": "Autres",
+      "amount": 300,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
