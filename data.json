@@ -7,6 +7,13 @@
       "source": "Salaire",
       "amount": 1139,
       "date": "2026-06-01"
+    },
+    {
+      "id": "1780418896673",
+      "month": "2026-06",
+      "source": "Papa",
+      "amount": 300,
+      "date": "2026-06-10"
     }
   ]
 }
