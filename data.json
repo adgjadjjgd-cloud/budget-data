@@ -47,6 +47,14 @@
       "cat": "Loisirs",
       "amount": 25,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419734120",
+      "month": "2026-06",
+      "desc": "Distributeur",
+      "cat": "Autres",
+      "amount": 1.3,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
