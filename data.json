@@ -103,6 +103,14 @@
       "cat": "Loisirs",
       "amount": 4,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419891855",
+      "month": "2026-06",
+      "desc": "Révolut",
+      "cat": "Loisirs",
+      "amount": 200,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
