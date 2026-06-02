@@ -733,14 +733,14 @@ async function addRevenu(){
     closeAllSheets();
     document.getElementById('rev-source').value='';
     document.getElementById('rev-amount').value='';
-    renderRevenus();showToast('Revenu ajouté');
+    renderRevenus();renderDashboard();showToast('Revenu ajouté');
   }catch(e){STATE.data.revenus=STATE.data.revenus.filter(r=>r.id!==id);showToast('Erreur : '+e.message,'err');}
 }
 
 function deleteRevenu(id){
   showModal('Supprimer ce revenu ?','Cette action est irréversible.',async()=>{
     STATE.data.revenus=STATE.data.revenus.filter(r=>r.id!==id);
-    await syncSheet('revenus');renderRevenus();showToast('Revenu supprimé');
+    await syncSheet('revenus');renderRevenus();renderDashboard();showToast('Revenu supprimé');
   });
 }
 
@@ -779,14 +779,14 @@ async function addDepense(){
     closeAllSheets();
     document.getElementById('dep-desc').value='';
     document.getElementById('dep-amount').value='';
-    renderDepenses();showToast('Dépense ajoutée');
+    renderDepenses();renderDashboard();showToast('Dépense ajoutée');
   }catch(e){STATE.data.depenses=STATE.data.depenses.filter(d=>d.id!==id);showToast('Erreur : '+e.message,'err');}
 }
 
 function deleteDepense(id){
   showModal('Supprimer cette dépense ?','Cette action est irréversible.',async()=>{
     STATE.data.depenses=STATE.data.depenses.filter(d=>d.id!==id);
-    await syncSheet('depenses');renderDepenses();showToast('Dépense supprimée');
+    await syncSheet('depenses');renderDepenses();renderDashboard();showToast('Dépense supprimée');
   });
 }
 
@@ -828,20 +828,20 @@ async function addRecurrente(){
     document.getElementById('rec-desc').value='';
     document.getElementById('rec-amount').value='';
     document.getElementById('rec-day').value='';
-    renderRecurrentes();showToast('Dépense récurrente ajoutée');
+    renderRecurrentes();renderDashboard();showToast('Dépense récurrente ajoutée');
   }catch(e){STATE.data.recurrentes=STATE.data.recurrentes.filter(r=>r.id!==id);showToast('Erreur : '+e.message,'err');}
 }
 
 async function toggleRecurrente(id){
   const rec=STATE.data.recurrentes.find(r=>r.id===id);if(!rec)return;
   rec.active=!rec.active;
-  await syncSheet('recurrentes');renderRecurrentes();
+  await syncSheet('recurrentes');renderRecurrentes();renderDashboard();
 }
 
 function deleteRecurrente(id){
   showModal('Supprimer ?','Elle ne sera plus comptabilisée.',async()=>{
     STATE.data.recurrentes=STATE.data.recurrentes.filter(r=>r.id!==id);
-    await syncSheet('recurrentes');renderRecurrentes();showToast('Supprimée');
+    await syncSheet('recurrentes');renderRecurrentes();renderDashboard();showToast('Supprimée');
   });
 }
 
@@ -901,7 +901,7 @@ async function setBudget(){
     await syncSheet('budgets');
     closeAllSheets();
     document.getElementById('bud-amount').value='';
-    renderBudget();showToast('Budget enregistré');
+    renderBudget();renderDashboard();showToast('Budget enregistré');
   }catch(e){showToast('Erreur : '+e.message,'err');}
 }
 
