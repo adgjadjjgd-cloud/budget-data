@@ -31,6 +31,14 @@
       "cat": "Alimentation",
       "amount": 22.55,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419692816",
+      "month": "2026-06",
+      "desc": "Loyer",
+      "cat": "Logement",
+      "amount": 378,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
