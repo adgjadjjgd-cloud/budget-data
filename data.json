@@ -135,14 +135,6 @@
       "cat": "Alimentation",
       "amount": 300,
       "date": ""
-    },
-    {
-      "id": "1780419995356",
-      "month": "2026-06",
-      "desc": "Vacances",
-      "cat": "Autres",
-      "amount": 300,
-      "date": "2026-06-02"
     }
   ],
   "revenus": [
