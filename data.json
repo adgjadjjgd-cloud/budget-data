@@ -7,6 +7,14 @@
       "cat": "Loisirs",
       "amount": 13,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419618610",
+      "month": "2026-06",
+      "desc": "Mypoke",
+      "cat": "Loisirs",
+      "amount": 13,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
