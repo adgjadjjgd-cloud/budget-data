@@ -1,14 +1,5 @@
 {
-  "depenses": [
-    {
-      "id": "1780419573126",
-      "month": "2026-06",
-      "desc": "Uber eats",
-      "cat": "Loisirs",
-      "amount": 13.15,
-      "date": "2026-06-02"
-    }
-  ],
+  "depenses": [],
   "revenus": [
     {
       "id": "1780418357682",
