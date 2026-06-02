@@ -1,5 +1,14 @@
 {
-  "depenses": [],
+  "depenses": [
+    {
+      "id": "1780419600607",
+      "month": "2026-06",
+      "desc": "pepe chicken",
+      "cat": "Loisirs",
+      "amount": 13,
+      "date": "2026-06-02"
+    }
+  ],
   "revenus": [
     {
       "id": "1780418357682",
