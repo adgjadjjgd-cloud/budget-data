@@ -79,6 +79,14 @@
       "cat": "Autres",
       "amount": 300,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419837606",
+      "month": "2026-06",
+      "desc": "AKA",
+      "cat": "Loisirs",
+      "amount": 26.1,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
