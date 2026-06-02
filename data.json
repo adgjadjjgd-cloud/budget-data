@@ -23,6 +23,14 @@
       "cat": "Autres",
       "amount": 95,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419670943",
+      "month": "2026-06",
+      "desc": "Courses",
+      "cat": "Alimentation",
+      "amount": 22.55,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
