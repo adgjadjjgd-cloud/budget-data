@@ -1,3 +1,12 @@
 {
-  "depenses": []
+  "depenses": [
+    {
+      "id": "1780417754156",
+      "month": "2026-06",
+      "desc": "Te",
+      "cat": "Autres",
+      "amount": 1,
+      "date": "2026-06-02"
+    }
+  ]
 }
