@@ -1,12 +1,3 @@
 {
-  "depenses": [
-    {
-      "id": "1780414040075",
-      "month": "2026-06",
-      "desc": "Loyer",
-      "cat": "Logement",
-      "amount": 375,
-      "date": "2026-06-02"
-    }
-  ]
+  "depenses": []
 }
