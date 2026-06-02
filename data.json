@@ -63,6 +63,14 @@
       "cat": "Autres",
       "amount": 21.5,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419800508",
+      "month": "2026-06",
+      "desc": "RATP",
+      "cat": "Transport",
+      "amount": 5.1,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
