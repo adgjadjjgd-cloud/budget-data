@@ -15,6 +15,14 @@
       "cat": "Loisirs",
       "amount": 13,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780419648412",
+      "month": "2026-06",
+      "desc": "Billet avion",
+      "cat": "Autres",
+      "amount": 95,
+      "date": "2026-06-02"
     }
   ],
   "revenus": [
