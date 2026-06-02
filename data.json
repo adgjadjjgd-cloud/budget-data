@@ -127,14 +127,6 @@
       "cat": "Transport",
       "amount": 2.55,
       "date": "2026-06-02"
-    },
-    {
-      "id": "1780419974046",
-      "month": "2026-06",
-      "desc": "Courses",
-      "cat": "Alimentation",
-      "amount": 300,
-      "date": ""
     }
   ],
   "revenus": [
