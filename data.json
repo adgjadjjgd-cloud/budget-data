@@ -43,7 +43,7 @@
     {
       "id": "1780419711519",
       "month": "2026-06",
-      "desc": "VIr léo paris",
+      "desc": "VIr lÃ©o paris",
       "cat": "Loisirs",
       "amount": 25,
       "date": "2026-06-02"
@@ -107,7 +107,7 @@
     {
       "id": "1780419891855",
       "month": "2026-06",
-      "desc": "Révolut",
+      "desc": "RÃ©volut",
       "cat": "Loisirs",
       "amount": 200,
       "date": "2026-06-02"
@@ -127,6 +127,14 @@
       "cat": "Transport",
       "amount": 2.55,
       "date": "2026-06-02"
+    },
+    {
+      "id": "1780472552782",
+      "month": "2026-06",
+      "desc": "Pharmacie gorge",
+      "cat": "Santé",
+      "amount": 23,
+      "date": "2026-06-03"
     }
   ],
   "revenus": [
